@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import Confetti from "./Components/LoginPage/confetti";
+import Confetti from "./Components/confetti";
 import React from "react";
 import Happy from "./happybd.mp3";
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
