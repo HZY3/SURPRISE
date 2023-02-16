@@ -1,0 +1,15 @@
+.HomePage{
+    text-align: center;
+    margin: 15rem 34rem 0rem 34rem;
+    color: var(--primary-color);
+    font-family: inherit !important;
+
+}
+
+h1{
+    font-weight: 800;
+}
+
+h2{
+    font-weight: 400;
+}

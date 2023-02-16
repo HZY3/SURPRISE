@@ -1,0 +1,64 @@
+
+.font{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+a{
+    cursor: inherit;
+}
+
+.NavBar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    color: var(--text-color);
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.2s ease-in;
+    background-color: rgb(0,0,0, .1);
+}
+
+.NavBar-Bg{
+    background-color: rgb(0,0,0, .6);
+
+}
+
+.NavBar > nav{
+    display: flex;
+    
+}
+
+.NavBar-Menu, .NavBar-Menu:visited, .NavBar:visited{
+    margin: 0 2rem;
+    color: var(--text-color);
+
+}
+
+.NavBar-Menu:visited, .NavBar:visited, .Logo, .Login-Btn{
+    color: var(--text-color);
+    text-decoration: underline transparent;
+}
+
+.Login-Btn{
+    text-decoration: underline transparent;
+}
+
+.Login-Btn:hover{
+    transition: background-color 0.3s ease;
+    justify-content: flex-end;
+}
+
+span:hover{
+    
+    text-decoration: underline;
+    transition: .3s ease;
+}
+
+span{
+    text-decoration: underline transparent;
+}
