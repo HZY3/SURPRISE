@@ -1,9 +1,29 @@
-.ConfettiPage {
+.topRow {
+  color: #eae7fa;
+  text-shadow: 0 -3px 0 #917ff8, 0 6px 8px rgb(195, 145, 172, 0.4),
+    0 9px 10px rgba(195, 145, 172, 0.15), 0 30px 10px rgba(195, 145, 172, 0.18),
+    0 15px 10px rgba(195, 145, 172, 0.21);
+  font-family: "Fredoka One", cursive;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topRow > h2 {
+  margin-top: 4vw;
+  font-size: 3vw;
+  text-align: center;
+  z-index: 10;
+}
+
+.middleText {
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  /* width: 70vw; */
+  background-color: transparent;
+  border: none;
 }
 
 h1 {
@@ -20,6 +40,13 @@ h1 {
   transition: 0.2s ease;
   height: 14vw;
   border-radius: 20px;
+}
+
+span {
+  font-size: 1vw;
+  color: #6248f3;
+  text-shadow: none;
+  margin-top: none;
 }
 
 h1:hover {
@@ -44,23 +71,6 @@ img {
   border-radius: 10px;
   box-shadow: 0 0px 10px rgb(0, 0, 0, 0.4);
   z-index: 0;
-}
-
-.topRow {
-  color: #eae7fa;
-  text-shadow: 0 -3px 0 #917ff8, 0 6px 8px rgb(195, 145, 172, 0.4),
-    0 9px 10px rgba(195, 145, 172, 0.15), 0 30px 10px rgba(195, 145, 172, 0.18),
-    0 15px 10px rgba(195, 145, 172, 0.21);
-  font-family: "Fredoka One", cursive;
-  display: flex;
-  justify-content: space-between;
-}
-
-.topRow > h2 {
-  margin-top: 8vw;
-  font-size: 3vw;
-  text-align: center;
-  z-index: 10;
 }
 
 .bottonRow {
@@ -94,7 +104,8 @@ img {
   transition: 0.1s ease-in;
 }
 
-a {
+.middleText > a {
+  text-align: center;
   text-decoration: none;
   background-color: transparent !important;
   border: none !important;
