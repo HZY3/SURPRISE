@@ -12,10 +12,13 @@ function App() {
   useEffect(() => {
     if (count === 10) {
       window.open("https://youtu.be/dQw4w9WgXcQ", "_blank");
+      setCount(0);
     } else if (count === 20) {
       window.open("https://youtu.be/dQw4w9WgXcQ", "_blank");
+      setCount(0);
     } else if (count === 30) {
       window.open("https://youtu.be/dQw4w9WgXcQ", "_blank");
+      setCount(0);
     }
   }, [count]);
 
